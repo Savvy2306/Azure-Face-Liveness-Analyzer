@@ -41,4 +41,12 @@ In `AppConstants.kt`, add your Face API endpoint and key:
 
 ![image](https://github.com/user-attachments/assets/c5f394fd-1c8b-4eea-9100-d52d932b13c6)
 
+## Screens
+<img src="https://github.com/user-attachments/assets/ab5f5182-a7c9-4c59-98e6-c02262b5ce33" alt="image 1" width="25%" style="margin-right: 40px;"/> 
+<img src="https://github.com/user-attachments/assets/f0e609b3-0fdc-407a-ba74-9e9ed8269274" alt="image 2" width="25%" />
+
+
+
+
+
 
