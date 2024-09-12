@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AzureFaceAnalyzerSample</string>
+    <string name="start_analyzing">Start Analyzing</string>
+    <string name="missing_incorrect_settings">Missing or incorrect settings</string>
+    <string name="service_options_are_not_initialize">Service options are not initialized.</string>
+    <string name="vision_source_is_not_initialize">Vision source is not initialized.</string>
+    <string name="error_initializing_faceAnalyzer">Error initializing FaceAnalyzer</string>
+
+    <string name="feedback_none">Hold Still.</string>
+    <string name="feedback_look_at_camera">Look at camera.</string>
+    <string name="feedback_face_not_centered">Center your face in the circle.</string>
+    <string name="feedback_move_closer">Too far away! Move in closer.</string>
+    <string name="feedback_continue_to_move_closer">Continue to move closer.</string>
+    <string name="feedback_move_back">Too close! Move farther away.</string>
+    <string name="feedback_reduce_movement">Too much movement.</string>
+    <string name="feedback_smile">Smile for the camera!</string>
+    <string name="feedback_attention_not_needed">Done, finishing up…</string>
+</resources>
