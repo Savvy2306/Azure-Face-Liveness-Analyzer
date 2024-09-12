@@ -20,7 +20,6 @@ This repository demonstrates the implementation of the **Azure Face Liveness Det
 
 In `libs.version.toml`:
 
-```toml
 [versions]
 azureAi = "0.17.1-beta.1"
 azureAndroid = "1.0.0-beta.14"
@@ -34,7 +33,6 @@ azure-core-http-okhttp = { group = "com.azure.android", name = "azure-core-http-
 
 In `build.gradle (Module: app)`:
 
-```gradle
 plugins {
     id("kotlin-parcelize")
 }
@@ -49,7 +47,6 @@ dependencies {
 
 In your `project-level build.gradle file`:
 
-```gradle
 repositories {
     google()
     mavenCentral()
