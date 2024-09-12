@@ -20,49 +20,25 @@ This repository demonstrates the implementation of the **Azure Face Liveness Det
 
 In `libs.version.toml`:
 
-[versions]
-azureAi = "0.17.1-beta.1"
-azureAndroid = "1.0.0-beta.14"
+![image](https://github.com/user-attachments/assets/019af12e-410e-4be0-8c14-6c8b78bb6969)
 
-[libraries]
-azure-ai_vision_common = { group = "com.azure.ai", name = "azure-ai-vision-common", version.ref = "azureAi" }
-azure-ai_vision_faceanalyzer = { group = "com.azure.ai", name = "azure-ai-vision-faceanalyzer", version.ref = "azureAi" }
-azure-core-http-okhttp = { group = "com.azure.android", name = "azure-core-http-okhttp", version.ref = "azureAndroid" }
 
 ## Gradle Setup
 
 In `build.gradle (Module: app)`:
 
-plugins {
-    id("kotlin-parcelize")
-}
-
-dependencies {
-    implementation(libs.azure.core.http.okhttp)
-    implementation(libs.azure.ai.vision.common)
-    implementation(libs.azure.ai.vision.faceanalyzer)
-}
+![image](https://github.com/user-attachments/assets/2e266828-0cda-4e4a-b558-5622aa937518)
 
 ## Setting Up Credentials
 
 In your `project-level build.gradle file`:
 
-repositories {
-    google()
-    mavenCentral()
-    maven {
-        url = uri("https://pkgs.dev.azure.com/msface/SDK/_packaging/AzureAIVision/maven/v1")
-        name = "AzureAIVision"
-        credentials {
-            username = "enter your username here"
-            password = "enter your password here"
-        }
-    }
-}
+![image](https://github.com/user-attachments/assets/66eadae2-e8e4-44f9-8278-c8fd2b88a597)
 
 ## API & Keys
 
 In `AppConstants.kt`, add your Face API endpoint and key:
-const val FACE_API_ENDPOINT = "use your endpoint here"
-const val FACE_API_KEY = "use face API key here"
+
+![image](https://github.com/user-attachments/assets/c5f394fd-1c8b-4eea-9100-d52d932b13c6)
+
 
